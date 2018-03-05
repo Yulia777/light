@@ -61,9 +61,9 @@ class Agama_Breadcrumb {
 	private static function is_home_or_front_page() {
         if( is_home() && is_front_page() ) {
             $h1 = sprintf( '<h1>%s</h1>', __( 'Home', 'agama' ) );
-        } else if( is_home() ) {
+        } /*else if( is_home() ) {
             $h1 = sprintf( '<h1>%s</h1>', __( 'Blog', 'agama' ) );
-        } else if( is_front_page() ) {
+        } */else if( is_front_page() ) {
             $h1 = sprintf( '<h1>%s</h1>', get_the_title() );
         }
          $output = '';

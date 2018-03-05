@@ -4876,3 +4876,7 @@ a[role=tab] i {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+/*#page-title.page-title-mini {
+	padding: 0;
+}*/
